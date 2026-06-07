@@ -1,0 +1,36 @@
+:root {
+  --color-bg: #fafaf9;
+  --color-surface: #ffffff;
+  --color-paper: #fdfbf7;
+  --color-border: #e7e5e4;
+  --color-text: #0c0a09;
+  --color-text-muted: #57534e;
+  --color-text-subtle: #a8a29e;
+  --color-primary: #1c1917;
+  --color-focus: #b45309;
+  --color-study-blue: #1f93c9;
+  --color-study-blue-dark: #0f5f86;
+  --color-study-blue-soft: #dff1f7;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --font-ui: Inter, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(31, 147, 201, 0.18), transparent 42%),
+    linear-gradient(315deg, rgba(180, 83, 9, 0.08), transparent 48%),
+    var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-ui);
+}
+
+button,
+input {
+  font: inherit;
+}
